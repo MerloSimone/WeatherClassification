@@ -1,0 +1,24 @@
+-MWD lavora meglio con meno feature (100-150)
+-gli altri in genere lavorano meglio con più feature o sono invariati
+-in generale le nostre feature aggiuntive migliorano su MWD di 3%, su ACDC di 1% rispetto al caso base con solo istogrammi
+
+
+
+
+
+
+Rispetto al caso base (1 alla volta):
+-gradiente MWD + 4%, ACDC +0,4%, UAVid solito, syndrone -0,25%
+-sharpness MWD + 5,4%, ACDC +0,2%, UAVid solito, syndrone -0,25%
+-luminance praticamente invariati ma -2% MWD (necessario aumentare max_iter)
+
+
+
+
+
+-tutte combinate è il caso migliore (anche se su ACDC senza gradiente andrebbe 0,4% meglio ma su MWD senza gradiente perde 4%)
+Finale rispetto al caso base: (MWD + 4,7%, ACDC +1,2%, UAVid solito, syndrone +0%
+
+
+
+-con tutti i parametri riducendo i bins a 100 abbiamo circa +1% su MWD e ACDC
