@@ -1,4 +1,4 @@
-# Weather Classification
+# Weather Classification - Computer Vision's Course Project
 ## How to run
 Open the 'weatherclassification.ipynb' python notebook with jupyter and run all the code.
 All the other python files represent classes that are used inside the notebook.
